@@ -1,0 +1,116 @@
+/* ОБНУЛЕНИЕ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* -----------------------------------HEADER----------------------------- */
+.block__image {
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 20px 20px 20px;
+}
+.image__flag {
+	margin: 0px 20px 0px 0px;
+}
+.main__block {
+	display: flex;
+	flex-direction: column;
+}
+.main__title {
+	max-height: 100%;
+	background-color: brown;
+	margin: 0 auto;
+	font-size: 50px;
+	max-width: 300px;
+	font-weight: 700;
+	text-align: center;
+}
+.main__text {
+	margin-top: 40px;
+	font-size: 24px;
+	padding: 0px 20px 0px 20px;
+}
+
+/* ==============================MAIN BLOCK================================= */
+
+/* =============================CONTENT LIST=============================== */
+.main__content {
+	padding: 40px 30px;
+}
+.content {
+	color: red;
+	font-size: 50px;
+	padding: 0px 0px 20px 0px;
+}
+.content__list {
+	font-size: 25px;
+}
+.History {
+	padding: 10px 0px 10px 30px;
+	color: salmon;
+}
+.Geography {
+	padding: 10px 0px 10px 30px;
+	color: yellowgreen;
+}
+.History__content {
+	color: teal;
+}
+/* =====================CONTENT TEXT======================================== */
+.content__text {
+}
+.text__content1 {
+}
+.content__title {
+	color: indigo;
+	font-size: 40px;
+}
+.text {
+	font-size: 20px;
+	color: violet;
+}
+.text__content2 {
+}
+/* =============================FOOTER===================================== */
+.footer__body {
+	display: flex;
+	flex-direction: column;
+}
+.block__footer {
+}
+.footer__block {
+}
+.title {
+	text-align: center;
+	font-size: 50px;
+	color: blueviolet;
+}
+.footer__block.text {
+	color: aqua;
+}
